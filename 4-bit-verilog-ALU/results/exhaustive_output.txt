@@ -1,0 +1,2 @@
+PASS: all 2048 binary input/opcode combinations matched the reference.
+tb_alu4_exhaustive.v:62: $finish called at 2048000 (1ps)

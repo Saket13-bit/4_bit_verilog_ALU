@@ -1,0 +1,15 @@
+VCD info: dumpfile alu4.vcd opened for output.
+PASS op=000 a=0111 b=0011 -> y=1010 z=0 c=0 v=1
+PASS op=000 a=1111 b=0001 -> y=0000 z=1 c=1 v=0
+PASS op=000 a=0001 b=0001 -> y=0010 z=0 c=0 v=0
+PASS op=001 a=0101 b=0011 -> y=0010 z=0 c=0 v=0
+PASS op=001 a=0010 b=0101 -> y=1101 z=0 c=1 v=0
+PASS op=001 a=0111 b=1111 -> y=1000 z=0 c=1 v=1
+PASS op=010 a=1010 b=1100 -> y=1000 z=0 c=0 v=0
+PASS op=011 a=1010 b=1100 -> y=1110 z=0 c=0 v=0
+PASS op=100 a=1010 b=1100 -> y=0110 z=0 c=0 v=0
+PASS op=101 a=1010 b=0000 -> y=0101 z=0 c=0 v=0
+PASS op=110 a=1010 b=0000 -> y=0100 z=0 c=1 v=0
+PASS op=111 a=0000 b=0000 -> y=0000 z=1 c=0 v=0
+All test vectors passed.
+tb_alu4.v:77: $finish called at 12000 (1ps)
